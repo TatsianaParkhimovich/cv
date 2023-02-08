@@ -1,11 +1,11 @@
 body {
-   background-color: #ffffff;
-   color: #0f141e;
+    background-color: #ffffff;
+    color: #0f141e;
 
-   font-size: 14px;
-   font-weight: normal;
-   line-height: 1.5;
-   font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -21,16 +21,23 @@ a:visited {
     color: rgb(111, 111, 247);
 }
 
-.avatar{
- width: 200px;   
- border-radius: 50%;
- box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
- /*box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);*/
+.avatar {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    /*box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);*/
 }
 
 .info {
     display: flex;
     margin-bottom: 20px;
+}
+
+@media (max-width:700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
 }
 
 .info-text {
@@ -44,9 +51,9 @@ a:visited {
 
 /* Box Model */
 .container {
-   max-width: 75%;   
-   margin: auto;
-   padding-top: 30px;
+    max-width: 75%;
+    margin: auto;
+    padding-top: 30px;
 }
 
 
@@ -65,7 +72,7 @@ a:visited {
 .color {
     color: white;
     font-size: 12px;
-    
+
 }
 
 .card {
@@ -83,12 +90,13 @@ a:visited {
 }
 
 .form-group label {
-display: block;
-font-weight: 14px;
-color: #86898F;
+    display: block;
+    font-weight: 14px;
+    color: #86898F;
 }
+
 .form-group input,
-.form-group textarea  {
+.form-group textarea {
     width: 100%;
     box-sizing: border-box;
     border: none;
@@ -104,14 +112,15 @@ color: #86898F;
     display: flex;
     margin-bottom: 20px;
 }
-.row > .form-group {
-    width: 50% ;
+
+.row>.form-group {
+    width: 50%;
     margin-right: 20px;
-   font-size: 14px;
+    font-size: 14px;
 
 }
 
-.row > .form-group:last-child {
+.row>.form-group:last-child {
     margin-right: 0;
 }
 
